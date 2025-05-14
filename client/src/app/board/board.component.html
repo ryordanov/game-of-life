@@ -1,0 +1,14 @@
+<div class="board-grid">
+  <div
+    class="row"
+    *ngFor="let row of grid; let r = index"
+  >
+    <div
+      class="cell"
+      *ngFor="let cell of row; let c = index"
+      [class.alive]="cell"
+      [style.width.px]="config.size"
+      [style.height.px]="config.size"
+    ></div>
+  </div>
+</div>

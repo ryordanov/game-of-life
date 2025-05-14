@@ -1,0 +1,15 @@
+.board-grid {
+  border: 1px solid #b3b3b3;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  background: #000;
+}
+
+.cell.alive {
+  background: #1a1;
+}
